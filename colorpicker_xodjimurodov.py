@@ -61,7 +61,7 @@ frame2.pack(pady=5)
 rgb_label = Label(frame2, text="RGB CODE :", font=("Times New Roman", 12, "bold"))
 rgb_label.grid(row=2, column=0)
 
-rgb_entry = Entry(frame2, width=12, font=("Times New Roman", 12))
+rgb_entry = Entry(frame2, width=12, font=("Times new Roman", 12))
 rgb_entry.grid(row=2, column=1, padx=5)
 rgb_entry.insert(END, '')
 
