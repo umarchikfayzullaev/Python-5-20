@@ -52,7 +52,7 @@ class app(Frame):
         try:
             display.set(eval(display.get()))
         except:
-            display.set("error")
+            display.set("Error")
 
 
 if __name__ == '__main__':
