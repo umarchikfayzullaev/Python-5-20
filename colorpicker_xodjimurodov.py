@@ -65,7 +65,7 @@ rgb_entry = Entry(frame2, width=12, font=("Times new Roman", 12))
 rgb_entry.grid(row=2, column=1, padx=5)
 rgb_entry.insert(END, '')
 
-copy = Button(frame2, text="COPY", font=("Times New Roman", 12, "bold"),command = onClick)
+copy = Button(frame2, text="COPY", font=("Times new Roman", 12, "bold"),command = onClick)
 copy.grid(row=3, columnspan=2, pady=7)
 
 
